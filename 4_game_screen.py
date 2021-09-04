@@ -33,7 +33,7 @@ def shuffle_grid(number_count):
 # 시작 화면 보여주기
 
 
-def display_start_screen(dd):
+def display_start_screen():
     pygame.draw.circle(screen, WHITE, start_button.center, 60, 5)
     # 흰색으로 동그라미를 그리는데 중심좌표는 start_button 의 중심좌표를 따라가고,
     # 반지름은 60, 선 두께는 5
